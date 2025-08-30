@@ -13,17 +13,17 @@ import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
 
-// import image1 from "../assets/image1.png";
-import image2 from "../assets/image2.png";
-import image3 from "../assets/image3.png";
-import image4 from "../assets/image4.png";
-import image5 from "../assets/image5.png";
-import image6 from "../assets/image6.png";
-import image7 from "../assets/image7.png";
-import image8 from "../assets/image8.png";
-import image9 from "../assets/image9.png";
-import image10 from "../assets/image10.png";
-import image11 from "../assets/image11.png";
+import furnitureStoreImg from "../assets/furnitureStore.png";
+import ticTacToeImg from "../assets/tictactoe.png";
+import sudukoSolverImg from "../assets/sudukoSolver.png";
+import snakeGameImg from "../assets/snakeGame.png";
+import amazonCloneImg from "../assets/amazonClone.png";
+import algoVisualizerImg from "../assets/algoVisualizer.png";
+import translingoGptImg from "../assets/translingoGpt.png";
+import personalPortfolioImg from "../assets/personalPortfolio.png";
+import focusFlowImg from "../assets/focusFlow.png";
+import crowdFundImg from "../assets/crowdFund.png";
+import riftwearImg from "../assets/riftwear.png";
 
 export const NAVIGATION_LINKS = [
   { label: "About", href: "#about" },
@@ -49,73 +49,73 @@ export const PROJECTS = [
     title: "Rift Wear",
     subtitle:
       "An online e-commerce website for purchasing clothes with real users and real products",
-    image: image11,
+    image: riftwearImg,
     link: "https://riftwear.in/",
   },
   {
     title: "Crowd Funding Platform",
     subtitle:
       "A crowd funding platform where you can create your own campaigns and get funds for it.",
-    image: image10,
+    image: crowdFundImg,
     link: "https://crowd-funding-platform-pink.vercel.app/",
   },
   {
     title: "FocusFlow",
     subtitle:
       "A no distraction Youtube App where you get what you searched for.",
-    image: image9,
+    image: focusFlowImg,
     link: "https://no-distraction-youtube-two.vercel.app/",
   },
   {
     title: "Furniture Store App",
     subtitle:
       "A full-stack Furniture Store App built with React, Node.js, Express.js and MongoDB",
-    image: image10,
+    image: furnitureStoreImg,
     link: "https://github.com/Shrivastava-04/furnitureStoreApp",
   },
   {
     title: "Translingo Gpt",
     subtitle: "A web translator app that translates between langages.",
-    image: image2,
+    image: translingoGptImg,
     link: "https://github.com/sen-Saptarshi/error404-hackfest24",
   },
   {
     title: "Algorithm Visualiser",
     subtitle:
       "A project that helps you to visualize how different sorting algorithms works.",
-    image: image3,
+    image: algoVisualizerImg,
     link: "https://github.com/Shrivastava-04/algorithmVisualiser",
   },
   {
     title: "Personal Portfolio",
     subtitle: "A personal portfolio website designed with MERN stack.",
-    image: image4,
+    image: personalPortfolioImg,
     link: "#",
   },
   {
     title: "Amazon Clone",
     subtitle: "A clone of Amazon made using HTML, CSS, and JavaScript",
-    image: image5,
+    image: amazonCloneImg,
     link: "https://github.com/Shrivastava-04/Amazon_Clone",
   },
   {
     title: "Tic Tac Toe Game",
     subtitle: "A basic tic tac toe game built using React js.",
-    image: image6,
+    image: ticTacToeImg,
     link: "https://github.com/Shrivastava-04/Tic-Tac-Toe-Game",
   },
   {
     title: "Sudoku Solver",
     subtitle:
       "A console based Sudoku solver built using c++ and concepts of Data Structures and Algotithm, mainly Backtracking.",
-    image: image8,
+    image: sudukoSolverImg,
     link: "https://github.com/Shrivastava-04/Sudoku-Solver",
   },
   {
     title: "Snake Game",
     subtitle:
       "A console based snake game built using C++ and concepts of Data Structures and Algorithm.",
-    image: image7,
+    image: snakeGameImg,
     link: "https://github.com/Shrivastava-04/Snake-Game",
   },
 ];
@@ -209,7 +209,7 @@ export const SOCIAL_MEDIA_LINKS = [
     ),
   },
   {
-    href: "https://drive.google.com/file/d/1kUFBmp612abedSubkUFs87lD2n--hhh_/view?usp=drive_link",
+    href: "https://drive.google.com/file/d/1rNgcAWTXMPO6wOPlu_fqZwZ37Atx-TsR/view?usp=drive_link",
     icon: (
       <SiReaddotcv
         fontSize={25}
